@@ -32,7 +32,8 @@ public class _01_AndroidFindElement {
 
 		acessibilityElement = (MobileElement) driver.findElementById("android:id/text1");
 		System.out.println(" -> getText(): " + acessibilityElement.getText() + "\t -> findElementById()");
-
+//Second Changes
+		
 		acessibilityElement = (MobileElement) driver.findElementByClassName("android.widget.TextView");
 		System.out.println(" -> getText(): " + acessibilityElement.getText() + "\t -> findElementByClassName()");
 
